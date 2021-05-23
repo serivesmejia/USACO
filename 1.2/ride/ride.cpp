@@ -43,6 +43,8 @@ int main() {
         group_number *= letter_number;
       else if(line_number == 1)
         comet_number *= letter_number;
+      else
+        break;
     }
 
     line_number++;

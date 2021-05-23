@@ -1,6 +1,6 @@
 /*
 ID: s3rives1
-TASK: CHANGE_NAME_HERE
+TASK: CHANGENAMEHERE
 LANG: C++
 */
 
@@ -10,13 +10,10 @@ LANG: C++
 
 using namespace std;
 
-string name = "CHANGE_NAME_HERE_TOO";
+ofstream fout ("CHANGENAMEHERE.out");
+ifstream fin ("CHANGENAMEHERE.in");
 
-ofstream fout (name + ".out");
-ifstream fin (name + ".in");
-
-int main()
-{
+int main() {
 
   return 0;
 }
